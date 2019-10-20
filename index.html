@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Team Eagle Tech</title>
+    <meta name="description" content="EagleHacks">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146083081-1"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > $("#hero").position().top - 200) {
+                $('.slidd').addClass('opaque');
+            } else {
+                $('.slidd').removeClass('opaque');
+            }
+        });
+    </script>
+    <link rel='shortcut icon' type='image/x-icon' href='images/Logo.png' />
+
+</head>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light slidd" id="page-navbar">
+    <img src="images/Logo.png" width="30" height="30" style="margin-left: 10px;" alt="">
+    <a class="navbar-brand" href="index.html" style="padding-left: 10px;">Team Eagle Tech</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link px-4" href="index.html">Home</a>
+            <a class="nav-item nav-link px-4" href="about.html">About</a>
+            <a class="nav-item nav-link px-4" href="sponsors.html">Sponsors/Partners</a>
+            <a class="nav-item nav-link px-4" href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<body data-spy="scroll" data-target="#page-navbar" data-offset="100">
+    <div id="myCarousel" class="carousel slide pointer-event" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div id="banner">
+                    <img src="images/pane1.JPG" height="100%" width="100%" />
+                </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h2>Team Eagle Tech</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="banner">
+                    <img src="images/pane2.JPG" height="100%" width="100%" />
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="banner">
+                    <img src="images/pane3.JPG" height="100%" width="100%" />
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <section id="hero">
+            <h1 class="section-title white-text">Our Mission</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <img src="images/EdisonEagle.png" style="padding-left: 50px;">
+                        <img src="images/FIRST.png" style="padding-top: 50px; padding-left: 90px;">
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p class="section-descriptor">
+                            Our mission is to expose students of Edison High School to robotics and technology.
+                        </p>
+                        <p class="section-descriptor">
+                            Team Eagle Tech is a FIRST Robotics Competition participant, in which
+                            teams design a machine capable of completing a specific challenge. While building such a
+                            robot,
+                            our team consists of capable students, mentors, and members passionate about robotics. In
+                            previous
+                            years, our team has participated in the FIRST Tech Challenge in other schools.
+                        </p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 style="color: white">Team Eagle Tech</h2>
+                        <div class="contactspacer"></div>
+                        <p>Edison High School</p>
+                        <p>50 Boulevard of the Eagles, Edison, NJ 08817</p>
+                    </div>
+                    <div class="col-6">
+                        <h5 style="color: white">© 2019 Edison Highschool</h5>
+                        <div class="contactspacer"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    </section>
+    <script src="js/bundle.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
+</body>
+
+</html>

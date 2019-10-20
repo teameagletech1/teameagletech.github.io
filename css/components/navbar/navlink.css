@@ -1,0 +1,51 @@
+.nav-link {
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.nav-link:nth-of-type(1) {
+    background-image: linear-gradient(black, black);
+}
+
+.nav-link:nth-of-type(2) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:nth-of-type(3) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:nth-of-type(4) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:nth-of-type(5) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:nth-of-type(6) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:nth-of-type(7) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:nth-of-type(8) {
+    background-image: linear-gradient(var(--color-whitegrey), var(--color-whitegrey));
+}
+
+.nav-link:hover {
+    background-size: 100% 2px;
+}
+
+.nav-link.active {
+    background-size: 100% 2px;
+}
+
+.nav-item {
+    color: black !important;
+    font-family: Electrolize;
+}

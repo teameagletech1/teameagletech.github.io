@@ -1,0 +1,16 @@
+@import url('./navlink.css');
+@import url('./navbrand.css');
+@import url('./navtoggler.css');
+
+
+@media only screen and (orientation: portrait) {
+    .navbar {
+        font-size: 1.8em !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .navbar {
+        font-size: 1.8em !important;
+    }
+}

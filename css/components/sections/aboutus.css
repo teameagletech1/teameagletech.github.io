@@ -1,0 +1,11 @@
+#aboutus {
+    min-height: 70vh;
+    padding-bottom: 20vh;
+    width: 100vw;
+    background: var(--color-whitegrey);
+    color: black;
+}
+
+#aboutus h1 {
+    color: var(--color-black);
+}
